@@ -309,16 +309,12 @@ button{
 }
 
 /* CSS for anchor tag */
-.link{
-    margin: 0;
-    padding: 0;
-}
 a {
     position: absolute;
     text-decoration: none;
     padding: 8px 16px;
     right: 50px;
-    bottom: 0px;
+    bottom: 50px;
   }
   
   a:hover {
@@ -429,7 +425,7 @@ a {
     #back{
         display: none;
     }
-  
+
     h1:before,
     h1:after {
         display: none;
