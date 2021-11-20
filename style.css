@@ -1,3 +1,4 @@
+ 
 *{
     margin:0;
     padding:0;
@@ -74,67 +75,31 @@
 }
 
 .lower-container{
-    margin-top: 10px;
     position: relative;
      display: flex;
-    justify-content: space-evenly;
-     flex-wrap: wrap;
-     margin: auto;
+    flex-wrap: wrap;
+    
+     justify-content: space-evenly;
+   
+
  }
-  .card1{
-    margin-top:10px;
-    border:1.5px solid red;
-    height:40vh;
-    margin:auto;
-    border-radius:8px;
-    width:15%;
-    box-shadow:5px 5px 10px grey;
-    position:relative;
-}
-.card2{
+  .cards{
+    position: relative;
+     border: 1.5px solid red;
+     height: 300px;
+     width: 200px;
    
-    margin-top:10px;
-    border:1.5px solid red;
-    height:40vh;
-    margin:auto;
-    border-radius:8px;
-    width:15%;
-    box-shadow:5px 5px 10px grey;
-    position:relative;
+     border-radius: 10px;
+     box-shadow:5px 5px 10px grey
 }
-.card3{
-   
-    margin-top:10px;
-    border:1.5px solid red;
-    height:40vh;
-    margin:auto;
-    border-radius:8px;
-    width:15%;
-    box-shadow:5px 5px 10px grey;
-    position:relative;
+.lower-container2{
+    position: relative;
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+     margin-top: 30px;
 }
-.card4{
-   
-    margin-top:10px;
-    border:1.5px solid red;
-    height:40vh;
-    margin:auto;
-    border-radius:8px;
-    width:15%;
-    box-shadow:5px 5px 10px grey;
-    position:relative;
-}
-.card5{
-   
-    margin-top:10px;
-    border:1.5px solid red;
-    height:40vh;
-    margin:auto;
-    border-radius:8px;
-    width:15%;
-    box-shadow:5px 5px 10px grey;
-    position:relative;
-}
+
 .div1{
     position:absolute;
     top:15px;
@@ -344,12 +309,16 @@ button{
 }
 
 /* CSS for anchor tag */
+.link{
+    margin: 0;
+    padding: 0;
+}
 a {
     position: absolute;
     text-decoration: none;
     padding: 8px 16px;
     right: 50px;
-    bottom: 50px;
+    bottom: 0px;
   }
   
   a:hover {
@@ -407,11 +376,17 @@ a {
         font-size: 8.5vw;
     }
 
+    .lower-container2{
+      margin-top: 0px;
+    
+    }
+
     .card1{
         width: 85%;
         height:15vw;
         border: 1px solid  #e3d8d8;
         margin-top: 10px;
+        margin-right: 0px;
         
     }
     .card2{
@@ -442,7 +417,7 @@ a {
         border: 1px solid  #e3d8d8;
     }
     .next{
-      
+       
         bottom: 0;
         right: 0;
     }
@@ -454,7 +429,6 @@ a {
     #back{
         display: none;
     }
-   
   
     h1:before,
     h1:after {
@@ -534,7 +508,8 @@ a {
  .lower{
      margin-top: 120px;
  }
+
 } 
 
   
- 
+
