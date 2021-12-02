@@ -309,7 +309,7 @@ button{
 }
 
 /* CSS for anchor tag */
-a {
+.link {
     position: absolute;
     text-decoration: none;
     padding: 8px 10px;
@@ -327,12 +327,15 @@ a {
     color: white;
   }
   .previous {
+      text-decoration: none;
     background-color: rgb(128, 128, 128,0.4);
     color: black;
     position: absolute;
+    padding: 8px 10px;
      bottom:50px;
    right: 130px;
   }
+
   
   
   @media(max-width:600px){
@@ -417,10 +420,7 @@ a {
         bottom: 0;
         right: 0;
     }
-    .previous{
-       right: 85px;
-       bottom: 0;
-    }
+  
    
     #back{
         display: none;
