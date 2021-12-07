@@ -309,6 +309,11 @@ button{
 }
 
 /* CSS for anchor tag */
+
+a{
+    text-decoration: none;
+    color:red ;
+}
 .link {
     position: absolute;
     text-decoration: none;
@@ -503,6 +508,9 @@ button{
 
  .lower{
      margin-top: 120px;
+ }
+ a{
+     color: grey;
  }
 
 } 
